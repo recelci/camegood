@@ -1,0 +1,417 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Artic",
+				"ArticleDetailView"
+			],
+			[
+				"valid",
+				"form_valid"
+			],
+			[
+				"get_",
+				"get_object_or_404"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"fo",
+				"form"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/osman/dev/trydjango/src/templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 1537,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/osman/dev/trydjango/iyigeldi/.gitignore",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/osman/dev/trydjango/src/blog/urls.py",
+			"settings":
+			{
+				"buffer_size": 571,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/osman/dev/trydjango/src/blog/Templates/article/articles.html",
+			"settings":
+			{
+				"buffer_size": 714,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/osman/dev/trydjango/src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1208,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/osman/dev/trydjango"
+	],
+	"file_history":
+	[
+		"/C/Users/osman/dev/trydjango/src/templates/home.html",
+		"/C/Users/osman/dev/trydjango/src/templates/base.html",
+		"/C/Users/osman/dev/trydjango/src/blog/urls.py",
+		"/C/Users/osman/dev/trydjango/src/blog/views.py",
+		"/C/Users/osman/dev/trydjango/src/pages/views.py",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/article/article_detail.html",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/article/article_create.html",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/article/article_delete.html",
+		"/C/Users/osman/dev/trydjango/src/trydjango/settings.py",
+		"/C/Users/osman/dev/trydjango/src/trydjango/urls.py",
+		"/C/Users/osman/dev/trydjango/src/blog/forms.py",
+		"/C/Users/osman/dev/trydjango/src/blog/models.py",
+		"/C/Users/osman/dev/trydjango/src/blog/admin.py",
+		"/C/Users/osman/dev/trydjango/src/products/urls.py",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/article/articles.html",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/articles/articles.html",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/articles/article_detail.html",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/articles/article_create.html",
+		"/C/Users/osman/dev/trydjango/src/blog/Templates/forms.py",
+		"/C/Users/osman/dev/trydjango/src/products/models.py",
+		"/C/Users/osman/dev/trydjango/src/products/Templates/products/products.html",
+		"/C/Users/osman/dev/trydjango/src/products/views.py",
+		"/C/Users/osman/dev/trydjango/src/products/Templates/products/product_create.html",
+		"/C/Users/osman/dev/trydjango/src/products/Templates/products/product_delete.html",
+		"/C/Users/osman/dev/trydjango/src/products/Templates/products/product_detail.html",
+		"/C/Users/osman/dev/trydjango/src/products/Templates/products/product_detail_v2.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"crispy",
+			"app_name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\osman\\dev\\trydjango"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/osman/dev/trydjango/src/templates/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/osman/dev/trydjango/iyigeldi/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/osman/dev/trydjango/src/blog/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								497,
+								497
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/osman/dev/trydjango/src/blog/Templates/article/articles.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 714,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/osman/dev/trydjango/src/templates/base.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 364.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

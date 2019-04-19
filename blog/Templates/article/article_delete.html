@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1> Delete Product: </h1>
+
+<form role='form' method='POST'> {% csrf_token %}
+
+<h1>Do you really want to delete the article ?"{{ object.title}}"" </h1>
+
+<button type="submit" class="btn btn-success">Yes</button>
+<button type="" class="btn">Cancel</button>
+
+</form>
+
+
+{% endblock content %}

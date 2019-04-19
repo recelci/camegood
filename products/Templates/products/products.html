@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<h1> My Products: </h1>
+
+{% comment %} {{ form|as_crispy_field }} {% endcomment %}
+
+{# {{ object_list }} #}
+
+{% for instance in object_list %}
+<div class="row">
+      <div class="col-6">
+         <a href="{{ instance.get_absolute_url }}">{{ instance.id }}</a>
+      </div>
+      <div class="col-6">
+        {{ instance.title }}
+      </div>
+</div>
+    {{ instance.description }}
+    {{ instance.price }}
+
+{% endfor %}
+
+{% endblock content %}

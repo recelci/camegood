@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1> Article Detail: </h1>
+
+<form method = 'POST'> {% csrf_token %}
+
+{% comment %} {{ form|as_crispy_field }} {% endcomment %}
+
+<div class="row">
+      <div class="col-6">
+        {{ object.title }}
+      </div>
+      <div class="col-6">
+        {{ object.active }}
+      </div>
+</div>
+    {{ object.content }}
+
+<button type="submit" class="btn btn-success">Save person</button>
+
+</form>
+
+
+{% endblock content %}

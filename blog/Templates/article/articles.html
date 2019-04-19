@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1> My Articles: </h1>
+
+{% comment %} {{ form|as_crispy_field }} {% endcomment %}
+
+{# {{ object_list }} #}
+
+
+
+<div class="row"> 
+
+	{% for instance in object_list %}
+	<div class="col">
+
+		<div class="card" style="width: 18rem;">
+			<img src="https://picsum.photos/300?blur?image={{instance.id}}" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">{{ instance.title }}</h5>
+				<p class="card-text">{{ instance.content }} - This content is active: {{ instance.active }}</p>
+				<a href="{{ instance.get_absolute_url }}" class="btn btn-primary">Details</a>
+			</div>
+		</div>
+
+	</div>
+	{% endfor %}
+
+</div>
+
+
+
+
+{% endblock content %}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Hi All</h1>
+<p> About me: </p>
+
+
+<p>
+
+{{ my_text|title|capfirst }}, {{ my_number }}, {{ my_list }}
+
+</p>
+
+{% for my_sub_item in my_list %}
+
+    {% if my_condition %}
+
+        <li>{{forloop.counter}} - {{my_sub_item}} </li>
+
+    {% endif %}
+
+<li>{{forloop.counter}} - {{my_sub_item}} </li>
+
+{% endfor %}
+
+
+{% endblock content %}
