@@ -4,12 +4,6 @@
 
 <h1> My Articles: </h1>
 
-{% comment %} {{ form|as_crispy_field }} {% endcomment %}
-
-{# {{ object_list }} #}
-
-
-
 <div class="row"> 
 
 	{% for instance in object_list %}
@@ -28,8 +22,5 @@
 	{% endfor %}
 
 </div>
-
-
-
 
 {% endblock content %}

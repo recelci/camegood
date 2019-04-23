@@ -25,7 +25,7 @@ def about_view(request, *args, **kwargs):
     
     context = {
         "about_active": "active",
-        "my_text": "this is the story of me",
+        "my_text": "This is my story: ",
         "my_number": 123,
         "my_list": [123, 321, 444],
         "my_condition": False,

@@ -12,15 +12,33 @@
 </head>
 <body>
 
-  {% include 'navbar.html' %}
+  {% include 'shared/navbar.html' %}
+  <main role="main" class="container">
 
-  <div class="container">
 
-    {% block content %}
+    {% include 'shared/message-bar.html' %}
 
-    {% endblock content %}
+    <div class="row">
 
-  </div>
+      <div class="col-md-8">
+
+        {% block content %}
+
+        {% endblock content %}
+
+      </div>
+
+      <div class="col-md-4">
+
+        
+
+      </div>  
+
+
+    </div>
+
+
+  </main>
 
 
 

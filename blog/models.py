@@ -10,4 +10,4 @@ class Article (models.Model):
     active	= models.BooleanField(default=True)
 
     def get_absolute_url(self):
-    	return reverse("article:article-detail", kwargs={"id": self.id})
+    	return reverse("blog:article-detail", kwargs={"id": self.id})

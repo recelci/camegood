@@ -1,4 +1,4 @@
-"""trydjango URL Configuration
+"""iyigeldi URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -15,21 +15,31 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+
+from django.conf import settings
+from django.conf.urls.static import static
+
 from pages.views import (home_view,
 products_view,
 contact_view,
 about_view)
 
+from blog.views import ArticleListView
 
 urlpatterns = [
 
     path('blog/', include('blog.urls')),
+    path('user/', include('user.urls')),
     path('products/', include('products.urls')),
 
-    path('', home_view, name="home"),
+    path('', ArticleListView.as_view(), name="user-landing"),
+    path('home/', home_view, name="home"),
 
     path('admin/', admin.site.urls),
     path('contact/', contact_view, name="contact"),
     path('about/', about_view, name="about")
 
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
